@@ -61,7 +61,7 @@ input[type="text"]:focus {
             outline: none;
         }
 
- .button-group {
+ .btn-group {
             display: flex;
             gap: 10px;
             margin-bottom: 25px;
@@ -103,7 +103,7 @@ button:hover {
             font-size: 20px;
             font-weight: bold;
             color: #222;
-            /* display: none; */
+            display: none;
         }
 
 .result.show {
@@ -128,4 +128,17 @@ button:hover {
             font-weight: bold;
             color: #333;
         }
+
+.error {
+    background: #ff6b6b;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    display: none;
+}
+
+.error.show {
+    display: block;
+}
 
