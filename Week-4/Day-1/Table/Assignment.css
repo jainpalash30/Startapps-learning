@@ -1,0 +1,21 @@
+ body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #fcf6f6;
+        } 
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        th, td {
+            border: 1px solid #bc4040;
+            padding: 10px;
+        }
+        th {
+            background-color: #aab16b;
+            color: white;
+        }
+      

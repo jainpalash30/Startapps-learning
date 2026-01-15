@@ -1,0 +1,12 @@
+.error-container {
+  padding: 30px;
+  background-color: #ffe6e6;
+  border-radius: 10px;
+  border: 2px solid #ff4444;
+}
+
+.error-text {
+  color: #cc0000;
+  font-size: 18px;
+  font-weight: bold;
+}

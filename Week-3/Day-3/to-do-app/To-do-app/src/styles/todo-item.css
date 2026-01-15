@@ -1,0 +1,143 @@
+.todo-item-wrapper {
+  border: 1px solid;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  transition: all 0.2s;
+}
+
+.todo-item-normal {
+  background-color: #f9fafb;
+  border-color: #e5e7eb;
+}
+
+.todo-item-normal:hover {
+  border-color: #93c5fd;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.todo-item-completed {
+  background-color: #dcfce7;
+  border-color: #bbf7d0;
+}
+
+.todo-item-overdue {
+  background-color: #fee2e2;
+  border-color: #fca5a5;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.toggle-btn {
+  flex-shrink: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-top: 0.25rem;
+  transition: transform 0.2s;
+}
+
+.toggle-btn:hover {
+  transform: scale(1.1);
+}
+
+.icon-completed {
+  color: #16a34a;
+}
+
+.icon-pending {
+  color: #9ca3af;
+}
+
+.todo-content-wrapper {
+  flex: 1;
+  min-width: 0;
+}
+
+.todo-text {
+  font-size: 1rem;
+  color: #1f2937;
+  margin: 0 0 0.5rem 0;
+}
+
+.todo-text-completed {
+  text-decoration: line-through;
+  color: #6b7280;
+}
+
+.metadata-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.date-badge {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.date-badge-normal {
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+
+.date-badge-completed {
+  background-color: #dcfce7;
+  color: #15803d;
+}
+
+.date-badge-overdue {
+  background-color: #fee2e2;
+  color: #991b1b;
+  font-weight: 600;
+}
+
+.created-date-text {
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+.action-buttons-group {
+  display: flex;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.action-btn {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  background: none;
+}
+
+.action-btn-edit {
+  color: #2563eb;
+}
+
+.action-btn-edit:hover {
+  background-color: #dbeafe;
+  transform: scale(1.1);
+}
+
+.action-btn-delete {
+  color: #dc2626;
+}
+
+.action-btn-delete:hover {
+  background-color: #fee2e2;
+  transform: scale(1.1);
+}
+
+.action-btn-disabled {
+  color: #d1d5db;
+  cursor: not-allowed;
+}

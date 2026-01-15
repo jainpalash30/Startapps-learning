@@ -1,0 +1,22 @@
+ body {
+            margin: 10;
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+        }
+
+        .container {
+            display: flex;             
+            padding: 20px;
+            gap: 20px;                  
+        }
+
+        .First {
+            flex: 1;                   
+            background-color: #a7c1d3;
+            padding: 20px;
+        }
+
+        .Second {
+            flex: 1;                    
+            background-color: #f6c77b;
+            padding: 20px;
+        }

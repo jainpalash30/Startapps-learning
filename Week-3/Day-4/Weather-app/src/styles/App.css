@@ -1,0 +1,15 @@
+.app-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.3);
+  min-width: 400px;
+  text-align: center;
+}
+
+.app-title {
+  color: #667eea;
+  font-size: 32px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}

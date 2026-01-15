@@ -1,0 +1,21 @@
+
+        body {
+            margin: 12px;
+            font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+        }
+
+        .navbar {
+            background-color: #651f1f;
+            padding: 10px 30px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+            font-size: 15px;
+        }
+
+        .navbar a:hover {
+            color: #f2ff00;
+        }

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum of a array</title>
+    <link rel="stylesheet" href="Assignment.css">
+</head>
+<body>
+    <div class="Container">
+        <h1>Array sum calculator</h1>
+        <p>this is the sum calculator</p>
+
+        <div class="input-group">
+        <label for="inputArray">Enter your array here:  </label>
+        <input type="text" id="arrayInput" placeholder="Eg: 1,2,3,4,5"> 
+        </div>
+
+        <div class="btn-group">
+            <button class="calculate-btn" onclick="calculateSum()">Calculate</button>
+            <button class="clear-btn`" onclick="clearAll()">Clear</button>
+        </div>
+
+        <div class="result" id="result">
+            <div class="result-label">Sum of Array</div>
+            <div class="result-value" id="sumValue">0</div>
+            <div class="array-display" id="arrayDisplay"></div>
+        </div>
+    </div>
+
+    <script src="Assignment.js"></script>
+</body>
+</html>

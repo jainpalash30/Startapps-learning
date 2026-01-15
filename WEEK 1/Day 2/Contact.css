@@ -1,0 +1,86 @@
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #611b1b;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: rgb(236, 235, 235);
+            padding: 40px;
+            border: 1px solid #140909;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #c00f0f;
+        }
+        
+        fieldset {
+            border: 2px solid #2a1658;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        legend {
+            font-size: 18px;
+            font-weight: bold;
+            color: #0e5710;
+            padding: 0 10px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #2a2a2a;
+        }
+        
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+        
+        input:focus, textarea:focus {
+            border-color: #4CAF50;
+            outline: none;
+        }
+        
+        textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+        
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #4CAF50;
+            color: rgb(239, 227, 227);
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        
+        button:hover {
+            background-color: #45a049;
+        }
+     
+        .required {
+            color: red;
+        }
+        
+        input:invalid {
+            border-color: #ff6b6b;
+        }
+        
+        input:valid {
+            border-color: #4fdb54;
+        }
+      

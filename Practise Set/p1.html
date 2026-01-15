@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+</head>
+<body>
+
+  <script>
+    let product = {
+      company: 'Myntra ' , 
+      size : 'M' ,
+      type: 'Jeans',
+      'Delhivery-time' : 'nahi dena jo karna karle',
+    };
+    console.log(product);
+    let Copyproduct = product;
+   
+    Copyproduct.company = 'Azus';
+
+    console.log(Copyproduct);
+     
+   let palashh = {
+    message : 'Good Job palash',
+    status : 'Completed',
+   }
+
+   let {message,status} = palashh;
+   console.log(message);
+   console.log(status);
+
+   localStorage.setItem('Name' , 'Palash');
+   <!-- localStorage.setItem('Name' , 'Muskan'); -->
+   localStorage.setItem('Price' , '50000');
+   
+   localStorage.getItem('name');
+   localStorage.getItem('price');
+
+
+
+  </script>
+</body>
+</html>

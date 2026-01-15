@@ -1,0 +1,25 @@
+.loading-container {
+  padding: 40px;
+}
+
+.loading-text {
+  font-size: 24px;
+  color: #667eea;
+  font-weight: bold;
+  animation: pulse 1.5s ease-in-out infinite; 
+  /* animation 1.5s me smothly chalti hai and repeat karegi */
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* Ye animation define karta hai jisme element start aur end par fully visible hota hai, aur beech (50%) me thoda fade (opacity 0.5) ho jata hai — pulse jaisa effect. */
+
+/* @keyframes
+👉 CSS animation banane ke liye use hota hai, jisme hum batate hain ki time ke saath element ka style kaise change hoga. */
