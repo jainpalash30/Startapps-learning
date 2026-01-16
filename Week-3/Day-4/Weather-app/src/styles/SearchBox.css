@@ -1,0 +1,41 @@
+.search-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: 2px solid #667eea;
+  border-radius: 25px;
+  outline: none;
+ 
+}
+
+.search-input:focus {
+  border-color: #764ba2;
+  box-shadow: 0 0 10px rgba(102, 126, 234, 0.3);
+}
+
+.search-button {
+  padding: 12px 30px;
+  font-size: 16px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+
+.search-button:hover {
+  transform: scale(1.05); 
+  /* hover effect ke liye , zoom karta hai thoda 5% */
+}
+
+.search-button:active {
+  transform: scale(0.95);
+}

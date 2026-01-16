@@ -1,0 +1,95 @@
+ body {
+            font-family: Arial, sans-serif;
+            background-color: #962774;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: rgb(181, 172, 172);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        
+        .add-task {
+            margin-bottom: 20px;
+        }
+        
+        input[type="text"] {
+            width: 60%;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        
+        input[type="date"] {
+            padding: 10px;
+            border: 1px solid #ddd;
+            margin-left: 5px;
+        }
+        
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-left: 5px;
+        }
+        
+        button:hover {
+            background-color: #4598a0;
+        }
+        
+        .delete-btn {
+            background-color: #f44336;
+            padding: 5px 10px;
+            font-size: 12px;
+        }
+        
+        .delete-btn:hover {
+            background-color: #da190b;
+        }
+        
+        .section {
+            margin-top: 30px;
+        }
+        
+        .section h2 {
+            color: #555;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+        
+        .task-item {
+            padding: 10px;
+            margin: 10px 0;
+            background: #f9f9f9;
+            border-left: 4px solid #4CAF50;
+        }
+        
+        .completed .task-item {
+            border-left: 4px solid #999;
+           
+        }
+        
+        .task-text {
+            font-size: 16px;
+            display: inline-block;
+            width: 50%;
+        }
+        
+        .task-date {
+            color: #666;
+            font-size: 14px;
+            margin-left: 10px;
+        }
+        
+        .checkbox {
+            margin-right: 10px;
+        }

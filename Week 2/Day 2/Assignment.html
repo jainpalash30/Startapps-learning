@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Assignment.css">
+</head>
+<body>
+    <h1>Product List</h1>
+    
+    <div class="filters">
+        <div class="filter-group">
+            <label>Search:</label>
+            <input type="text" id="searchInput" placeholder="Search products...">
+        </div>
+        
+        <div class="filter-group">
+            <label>Category:</label>
+            <select id="categoryFilter">
+                <option value="all">All Categories</option>
+            </select>
+            
+            <label>Min Price:</label>
+            <input type="number" id="minPrice" placeholder="0" min="0">
+            
+            <label>Max Price:</label>
+            <input type="number" id="maxPrice" placeholder="10000" min="0">
+        </div>
+        
+        <div class="filter-group">
+            <label>Sort by Price:</label>
+            <select id="sortPrice">
+                <option value="none">No Sorting</option>
+                <option value="low">Low to High</option>
+                <option value="high">High to Low</option>
+            </select>
+            
+            <button onclick="applyFilters()">Apply Filters</button>
+        </div>
+    </div>
+    
+    <div class="view-toggle">
+        <button class="view-btn active" onclick="toggleView('grid')">Grid View</button>
+        <button class="view-btn" onclick="toggleView('list')">List View</button>
+    </div>
+    
+    <div id="productContainer"></div>
+
+    <script src="Assignment.js"></script>
+</body>
+</html>

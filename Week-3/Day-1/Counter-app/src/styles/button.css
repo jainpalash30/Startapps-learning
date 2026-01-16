@@ -1,0 +1,71 @@
+.button {
+  font-weight: bold;
+  border-radius: 9999px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+  transition: all 150ms ease;
+  cursor: pointer;
+  border: 4px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
+
+.button:active {
+  transform: scale(0.95);
+}
+
+.button-increment {
+  width: 100%;
+  background: linear-gradient(180deg, #16a34a 0%, #15803d 100%);
+  color: white;
+  font-size: 3rem;
+  padding: 1.5rem 0;
+  border-color: #166534;
+}
+
+.button-increment:hover {
+  background: linear-gradient(180deg, #22c55e 0%, #16a34a 100%);
+}
+
+.button-increment:active {
+  background: linear-gradient(180deg, #15803d 0%, #166534 100%);
+}
+
+.button-decrement {
+  flex: 1;
+  background: linear-gradient(180deg, #dc2626 0%, #b91c1c 100%);
+  color: white;
+  font-size: 2.5rem;
+  padding: 1rem 0;
+  border-color: #991b1b;
+}
+
+.button-decrement:hover {
+  background: linear-gradient(180deg, #ef4444 0%, #dc2626 100%);
+}
+
+.button-decrement:active {
+  background: linear-gradient(180deg, #b91c1c 0%, #991b1b 100%);
+}
+
+.button-reset {
+  width: 4rem;
+  height: 4rem;
+  background: linear-gradient(180deg, #facc15 0%, #eab308 100%);
+  color: #1f2937;
+  font-size: 0.875rem;
+  border-color: #ca8a04;
+}
+
+.button-reset:hover {
+  background: linear-gradient(180deg, #fde047 0%, #facc15 100%);
+}
+
+.button-reset:active {
+  background: linear-gradient(180deg, #eab308 0%, #ca8a04 100%);
+}
