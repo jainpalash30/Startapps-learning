@@ -5,7 +5,7 @@ function HelloReact() {
     <div className="Container">
       <div className="text-center">
         <h1 className="just-heading">
-          Hello, React!
+          Hello, React!.
         </h1>
         <p className="text-xl text-white opacity-90">
           Hello duniyaaa
